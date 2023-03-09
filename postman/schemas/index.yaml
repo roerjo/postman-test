@@ -3,6 +3,8 @@ info:
   title: Vehicle Status
   version: 1.0.0
   description: API to perform critical status checks on connected vehicles
+servers:
+  - url: https://42b849f3-54eb-4f3e-8c48-662a853dd817.mock.pstmn.io
 paths:
   /vehicles/{vin}/status/odometer:
     parameters:
